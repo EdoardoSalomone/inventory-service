@@ -2,7 +2,6 @@ package it.edoardo.inventoryservice.controller;
 
 import it.edoardo.inventoryservice.dto.GenericResponse;
 import it.edoardo.inventoryservice.dto.OrderRequestDTO;
-import it.edoardo.inventoryservice.model.ProductStock;
 import it.edoardo.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

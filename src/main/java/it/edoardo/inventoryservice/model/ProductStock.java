@@ -18,12 +18,12 @@ public class ProductStock {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer productId;
+  @Column(nullable = false)
   private String productName;
   private int availableQuantity;
-
   @Enumerated(EnumType.STRING)
+  @Column(nullable = false)
   private UnitType unitType;
-
   private double unitPrice;
   private String category;
 
